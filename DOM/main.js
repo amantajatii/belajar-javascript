@@ -1,11 +1,22 @@
-document.title = 'diaz'
+const btn1 = document.getElementById('btn1') // khusus untuk id saja
+const btn2 = document.querySelector('.btn2') // bisa untuk semua elemen, bisa id, class, p, button, dll
 
-let body = document.body
+const defaultText = 'Klik saya 1'
+btn1.textContent = defaultText
 
-body.append('Hello World')
+btn1.style.border = 'none'
+btn1.style.padding = '8px'
+btn1.style.fontSize = '24px'
 
-const h1 = document.createElement('h1')
+function gantiWarna() {
+    console.log('aman')
+    btn1.style.background = 'blue '
+}
 
-h1.textContent = "ini h1"
+function ubahText() {
+    btn1.textContent = 'hihihi'
+}
 
-body.append(h1)
+function oriText() {
+    btn1.textContent = defaultText
+}
