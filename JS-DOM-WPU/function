@@ -1,0 +1,20 @@
+
+// DOM Selection
+document.getElementById()
+document.getElementsByClassName()
+document.getElementsByTagName()
+document.querySelector()
+document.querySelectorAll()
+
+// DOM Manipulation
+document.createElement()
+document.createTextNode()
+node.appendChild()
+node.insertBefore()
+parentNode.removeChild()
+parentNode.replaceChild()
+
+// DOM event
+node.addEventListener('eventA', function(){
+    // inti event, event juga bisa dibuat fungsi sendiri
+})
